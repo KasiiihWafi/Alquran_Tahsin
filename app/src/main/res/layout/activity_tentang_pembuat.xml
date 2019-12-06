@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TentangPembuat"
+    android:background="#FFF"
+    android:padding="10dp">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/igAqsha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\@aqshafaa"
+            android:layout_toEndOf="@id/ivIg"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"/>
+        
+        <ImageView
+            android:id="@+id/ivIg"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/ig"/>
+        
+        <TextView
+            android:id="@+id/igWafi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\@wafiii05"
+            android:layout_toEndOf="@id/ivIg"
+            android:layout_below="@id/igAqsha"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\@gharyn123_"
+            android:layout_toEndOf="@id/ivIg"
+            android:layout_below="@id/igWafi"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/ivFb"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/facebook"
+            android:layout_below="@id/ivIg"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/fbAqsha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/ivFb"
+            android:layout_below="@id/ivIg"
+            android:text="Aqsha Munggaran"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/fbWafi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abdurrahman Wafi"
+            android:layout_toRightOf="@id/ivFb"
+            android:layout_below="@id/fbAqsha"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gharyn Sinulingga"
+            android:layout_toEndOf="@id/ivFb"
+            android:layout_below="@id/fbWafi"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/ivGmail"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/gmail"
+            android:layout_below="@id/ivFb"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/gmAqsha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/ivGmail"
+            android:layout_below="@id/ivFb"
+            android:text="baksosayabulat@gmail.com"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/gmWafi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tigerunited109@gmail.com"
+            android:layout_toRightOf="@id/ivFb"
+            android:layout_below="@id/gmAqsha"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="persolna1243@gmail.com"
+            android:layout_toEndOf="@id/ivGmail"
+            android:layout_below="@id/gmWafi"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/ivWa"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/wa"
+            android:layout_below="@id/ivGmail"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/waAqsha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/ivWa"
+            android:layout_below="@id/ivGmail"
+            android:text="62+ 821-3526-1018"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/waWafi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="62+ 857-7868-6729"
+            android:layout_toRightOf="@id/ivWa"
+            android:layout_below="@id/waAqsha"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_toEndOf="@id/ivWa"
+            android:layout_below="@id/waWafi"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"/>
+        
+    </RelativeLayout>
+
+</ScrollView>

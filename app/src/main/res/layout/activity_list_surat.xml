@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListSurat">
+
+    <View
+        android:id="@+id/warning"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#D8D8D8"/>
+
+    <TextView
+        android:id="@+id/tvWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maaf, Baru Tersedia Juz 30"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:textColor="#FFF"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_error_black_24dp"
+        android:layout_toStartOf="@id/tvWarning"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_error_black_24dp"
+        android:layout_toEndOf="@id/tvWarning"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/list_surat"
+        android:layout_below="@id/warning">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

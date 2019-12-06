@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".Jadwal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivBg"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:contentDescription="@string/descriptionImage"
+        android:scaleType="centerCrop"
+        android:src="@drawable/morning" />
+
+    <View
+        android:id="@+id/viewGradient"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignBottom="@id/ivBg"
+        android:background="@drawable/shadow_view" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        tools:text="Fajar"
+        android:textColor="#FFF"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gantilokasi"
+        android:background="@drawable/lokasi"
+        android:layout_alignParentEnd="true"
+        android:padding="5dp"
+        android:layout_margin="5dp"/>
+
+    <TextClock
+        android:id="@+id/tvClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTime"
+        android:layout_centerHorizontal="true"
+        android:format12Hour="hh:mm a"
+        android:text="--:--"
+        android:textColor="#FFF"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvClock"
+        android:layout_marginHorizontal="10dp"
+        android:layout_centerHorizontal="true"
+        android:shadowColor="#000"
+        android:shadowRadius="2"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Dayeuh, Jonggol Bogor" />
+
+    <TextView
+        android:id="@+id/tvCalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvLocation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:shadowColor="#000"
+        android:shadowRadius="2"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="17 September 2019" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/prayScedule"
+                android:textColor="#689F38"
+                android:textSize="24sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+        <RelativeLayout
+            android:layout_below="@id/card"
+            android:id="@+id/layMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:id="@+id/layFajr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp">
+
+                <ImageView
+                    android:id="@+id/ivIconFajr"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:contentDescription="@string/descriptionImage"
+                    android:src="@drawable/fajar" />
+
+                <TextView
+                    android:id="@+id/fajr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_toEndOf="@id/ivIconFajr"
+                    android:text="@string/Fajr"
+                    android:textColor="@color/hitam"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvFajr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="--:--"
+                    android:textColor="@color/hitam"
+                    android:textAlignment="center"
+                    android:textSize="20sp"/>
+
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/lineFajr"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/layFajr"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="#DFDFDF" />
+
+            <RelativeLayout
+                android:id="@+id/laySunrise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lineFajr"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp">
+
+                <ImageView
+                    android:id="@+id/ivIconSunrise"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:contentDescription="@string/descriptionImage"
+                    android:src="@drawable/rise" />
+
+                <TextView
+                    android:id="@+id/sunrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_toEndOf="@id/ivIconSunrise"
+                    android:text="@string/Sunrise"
+                    android:textColor="@color/hitam"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvSunrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="--:--"
+                    android:textColor="@color/hitam"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/lineSunrise"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/laySunrise"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="#DFDFDF" />
+
+            <RelativeLayout
+                android:id="@+id/layDhuhr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lineSunrise"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp">
+
+                <ImageView
+                    android:id="@+id/ivIconDhuhr"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:contentDescription="@string/descriptionImage"
+                    android:src="@drawable/sun" />
+
+                <TextView
+                    android:id="@+id/dhuhr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_toEndOf="@id/ivIconDhuhr"
+                    android:text="@string/Dhuhr"
+                    android:textColor="@color/hitam"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvDhuhr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="--:--"
+                    android:textColor="@color/hitam"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/lineDhuhr"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/layDhuhr"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="#DFDFDF" />
+
+            <RelativeLayout
+                android:id="@+id/layAsr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lineDhuhr"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp">
+
+                <ImageView
+                    android:id="@+id/ivIconAsr"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:contentDescription="@string/descriptionImage"
+                    android:src="@drawable/dawn" />
+
+                <TextView
+                    android:id="@+id/asr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_toEndOf="@id/ivIconAsr"
+                    android:text="@string/asar"
+                    android:textColor="@color/hitam"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvAsr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="--:--"
+                    android:textColor="@color/hitam"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/lineAsr"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/layAsr"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="#DFDFDF" />
+
+            <RelativeLayout
+                android:id="@+id/layMaghrib"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lineAsr"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp">
+
+                <ImageView
+                    android:id="@+id/ivIconMaghrib"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:contentDescription="@string/descriptionImage"
+                    android:src="@drawable/images" />
+
+                <TextView
+                    android:id="@+id/maghrib"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_toEndOf="@id/ivIconMaghrib"
+                    android:text="@string/magrib"
+                    android:textColor="@color/hitam"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvMaghrib"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="--:--"
+                    android:textColor="@color/hitam"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/lineMaghrib"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@id/layMaghrib"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="#DFDFDF" />
+
+            <RelativeLayout
+                android:id="@+id/layIsha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lineMaghrib"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:id="@+id/ivIconIsha"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:contentDescription="@string/descriptionImage"
+                    android:src="@drawable/cloudy" />
+
+                <TextView
+                    android:id="@+id/isha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_toEndOf="@id/ivIconIsha"
+                    android:text="@string/isyaa"
+                    android:textColor="@color/hitam"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvIsha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="--:--"
+                    android:textColor="@color/hitam"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    <TextView
+        android:id="@+id/nointernet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/badconnection"
+        android:layout_below="@id/card"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:visibility="gone"/>
+
+    <com.tuyenmonkey.mkloader.MKLoader
+        android:id="@+id/mkmkmk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:mk_type="LineSpinner"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/card"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:mk_color="@color/hitam"/>
+
+    </RelativeLayout>
+
+</ScrollView>

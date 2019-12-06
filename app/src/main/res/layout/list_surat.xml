@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="15dp">
+
+    <!--<ImageView
+        android:id="@+id/no"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/btn"/>-->
+
+    <TextView
+        android:id="@+id/no"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="5dp"
+        android:text="@string/number"
+        android:textColor="#2FAE9E"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="@drawable/border"
+        />
+
+    <TextView
+        android:id="@+id/Judul"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/no"
+        android:text="@string/judul"/>
+
+    <TextView
+        android:id="@+id/subJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Judul"
+        android:layout_toEndOf="@+id/no"
+        android:textSize="18sp"
+        android:textColor="#B5A898"
+        android:text="@string/subjudul"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#9AAA9C8B"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/subJudul"/>
+
+</RelativeLayout>

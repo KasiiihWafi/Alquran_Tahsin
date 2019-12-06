@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:background="#259099">
+
+    <TextView
+        android:id="@+id/tvSplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Al-Qur'an dan Tahsin"
+        android:textSize="35sp"
+        android:textColor="#FFF"
+        android:fontFamily="cursive"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Yuk Baca Al-Qur\'an dan Belajar Tahsin"
+        android:textAlignment="center"
+        android:layout_below="@+id/tvSplash"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textColor="#FFF"
+        android:fontFamily="monospace"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tentang">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="#FFF">
+
+        <TextView
+            android:id="@+id/Judul1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Judul1"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textSize="35sp"/>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="350dp"
+            android:layout_height="3dp"
+            android:layout_below="@id/Judul1"
+            android:background="#000"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tujuan"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view1"
+            android:text="# Tujuan Aplikasi Al-Qur\'an dan Tahsin"/>
+
+        <TextView
+            android:id="@+id/isitujuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tujuan"
+            android:textSize="20sp"
+            android:text="@string/isitentang"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/sejarah"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/isitujuan"
+            android:text="# Sejarah Aplikasi Al-Qur\'an dan Tahsin"/>
+
+        <TextView
+            android:id="@+id/isisejarah"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sejarah"
+            android:text="@string/isisejarah"/>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="350dp"
+            android:layout_height="3dp"
+            android:layout_below="@id/isisejarah"
+            android:layout_marginTop="10dp"
+            android:background="#000"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/tvHubungi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/view2"
+            android:text="@string/hubungi"
+            android:textSize="25sp"/>
+
+        <ImageView
+            android:id="@+id/ivGMAIL"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/facebook"
+            android:layout_below="@id/tvHubungi"
+            android:layout_marginEnd="5dp"/>
+
+        <TextView
+            android:id="@+id/tvGmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DeCacat Official"
+            android:layout_below="@id/tvHubungi"
+            android:layout_toEndOf="@id/ivGMAIL"
+            android:textSize="18dp"
+            android:layout_marginStart="5dp"/>
+
+        <ImageView
+            android:id="@+id/ivIG"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ig"
+            android:layout_toStartOf="@id/tvIG"
+            android:layout_below="@id/tvHubungi"/>
+
+        <TextView
+            android:id="@+id/tvIG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\@decacat.official"
+            android:layout_marginStart="5dp"
+            android:textSize="18dp"
+            android:layout_below="@id/tvHubungi"
+            android:layout_alignParentEnd="true"/>
+
+        <ImageView
+            android:id="@+id/ivFB"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/gmail"
+            android:layout_marginTop="15dp"
+            android:layout_toStartOf="@id/tvFACEBOOK"
+            android:layout_below="@id/tvGmail"
+            android:layout_marginEnd="5dp"/>
+
+        <TextView
+            android:id="@+id/tvFACEBOOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="decacat.official@gmail.com"
+            android:textSize="18dp"
+            android:layout_alignTop="@id/ivFB"
+            android:layout_below="@id/tvGmail"
+            android:layout_centerHorizontal="true"/>
+
+        <!--<ImageView
+            android:id="@+id/ivHubungi"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/tentang_pembuat"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/tvHubungi"
+            android:onClick="pembuat"/>-->
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adab"
+    android:paddingHorizontal="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/adab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="1. Ikhlas"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/materi"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:fontFamily="monospace"/>
+
+        <TextView
+            android:id="@+id/isiadab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/adab1"
+            android:layout_marginTop="10dp"
+            android:text="@string/isiadab1"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/adab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="2. Mulut Tidak Bau"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_below="@id/isiadab1"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/materi"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:fontFamily="monospace"/>
+
+        <TextView
+            android:id="@+id/isiadab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/adab2"
+            android:layout_marginTop="10dp"
+            android:text="@string/isiadab2"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/adab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="3. Suci"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_below="@id/isiadab2"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/materi"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:fontFamily="monospace"/>
+
+        <TextView
+            android:id="@+id/isiadab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/adab3"
+            android:layout_marginTop="10dp"
+            android:text="@string/isiadab3"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/adab4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="4. Tempat Bersih"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_below="@id/isiadab3"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/materi"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:fontFamily="monospace"/>
+
+        <TextView
+            android:id="@+id/isiadab4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/adab4"
+            android:layout_marginTop="10dp"
+            android:text="@string/isiadab4"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/adab5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="5. Menghadap Kiblat"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_below="@id/isiadab4"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/materi"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:fontFamily="monospace"/>
+
+        <TextView
+            android:id="@+id/isiadab5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/adab5"
+            android:layout_marginTop="10dp"
+            android:text="@string/isiadab5"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/adab6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="6. Membaca Ta\'awudz"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_below="@id/isiadab5"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/materi"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:fontFamily="monospace"/>
+
+        <TextView
+            android:id="@+id/isiadab6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/adab6"
+            android:layout_marginTop="10dp"
+            android:text="@string/isiadab6"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/adab7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="7. Membaca Basmalah"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_below="@id/isiadab6"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/materi"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:fontFamily="monospace"/>
+
+        <TextView
+            android:id="@+id/isiadab7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/adab7"
+            android:layout_marginTop="10dp"
+            android:text="@string/isiadab7"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/adab8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="8. Khusyu\'"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_below="@id/isiadab7"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/materi"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:fontFamily="monospace"/>
+
+        <TextView
+            android:id="@+id/isiadab8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/adab8"
+            android:layout_marginTop="10dp"
+            android:text="@string/isiadab8"
+            android:textSize="25sp"
+            android:layout_marginBottom="10dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

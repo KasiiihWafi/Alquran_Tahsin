@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Al-Qur\'an dan Tahsin</string>
+    <string name="baca">Baca Al-Quran</string>
+    <string name="adab">Adab Membaca Al-Quran</string>
+    <string name="jadwal">Jadwal Sholat</string>
+    <string name="tentang">Tentang</string>
+    <string name="tahsin">Belajar Tahsin</string>
+    <string name="judul">Judul</string>
+    <string name="subjudul">subJudul</string>
+    <string name="number">1</string>
+    <string name="pengertian">Berita Besar</string>
+    <string name="jenis">Mekah</string>
+    <string name="jumlahayat">40 Ayat</string>
+    <string name="basmalah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيْمِ</string>
+    <string name="arab">Arab</string>
+    <string name="latin">Latinِ</string>
+    <string name="arti">Artiِ</string>
+    <string name="materi">1. Materiِ</string>
+    <string name="isi">Isi</string>
+    <string name="isiarab">Isi Arab</string>
+    <string name="isiadab1">Hendaklah yang membaca Al-Qur’an berniat ikhlas, mengharapkan ridha Allah, bukan berniat ingin cari dunia atau cari pujian.</string>
+    <string name="isiadab2">Disunnahkan membaca Al-Qur’an dalam keadaan mulut yang bersih. Bau mulut tersebut bisa dibersihkan dengan siwak atau bahan semisalnya.</string>
+    <string name="isiadab3">Disunnahkan membaca Al-Qur’an dalam keadaan suci. Namun jika membacanya dalam keadaan berhadats dibolehkan berdasarkan kesepatakan para ulama.</string>
+    <string name="isiadab4">Mengambil tempat yang bersih untuk membaca Al-Qur’an. Oleh karena itu, para ulama sangat anjurkan membaca Al-Qur’an di masjid. Di samping masjid adalah tempat yang bersih dan dimuliakan, juga ketika itu dapat meraih fadhilah i’tikaf.</string>
+    <string name="isiadab5">Menghadap kiblat ketika membaca Al-Qur’an. Duduk ketika itu dalam keadaan sakinah dan penuh ketenangan.</string>
+    <string name="isiadab6">Memulai membaca Al-Qur’an dengan membaca ta’awudz. Bacaan ta’awudz menurut jumhur (mayoritas ulama) adalah “a’udzu billahi minasy syaithonir rajiim”. Membaca ta’awudz ini dihukumi sunnah, bukan wajib.</string>
+    <string name="isiadab7">Membaca “bismillahir rahmanir rahim” di setiap awal surat selain surat Bara’ah (surat At-Taubah).</string>
+    <string name="isiadab8">Hendaknya ketika membaca Al-Qur’an dalam keadaan khusyu’ dan berusaha untuk mentadabbur (merenungkan) setiap ayat yang dibaca.</string>
+    <string name="Judul1">Al-Qur\'an dan Tahsin</string>
+    <string name="hubungi">Hubungi Kami</string>
+    <string name="isitentang">
+        > Aplikasi ini memudahkan kita semua untuk belajar ilmu tahsin dan baca Al-Qur\'an.\n\n
+        > karena kita lebih dekat dengan HP pada saat ini apa lagi pada saat remaja.\n\n
+        > Insya Allah bahasa yang kami sampaikan mudah untuk di pahami.\n\n
+        > Di aplikasi ini kita juga bisa Belajar Tahsin jika kita tidak bisa membaca Al-Qur\'an dengan benar.\n\n
+        > Dan kita bisa Melihat Adab-Adab membaca Al-Qur\'an.\n\n
+        > Aplikasi ini juga di lengkapi dengan jadwal sholat,kita juga bisa Membaca Dzikir Setelah sholat."
+</string>
+    <string name="isisejarah">"
+        Mengingat banyak sekali versi-versi Rasm/Penulisan Al-Qur\'an yang berbeda-beda,seperti di Asia Tenggara (termasuk Indonesia), Afrika, dll. Maka perlu sedikit diketahui sejarahnya.
+
+        Menurut buku karangan Al-Tamhid fi \'Ulum Al-Qur\'an, jilid 1, hal 362 dan 363. Tatkala orang-orang Arab mengambil huruf dari orang-orang Suryani dan Anbathi tidak memiliki titik. Pada waktu itu huruf-huruf Suryani juga belum memiliki titik. Orang-orang Arab hingga masa pertengahan abad pertama tahun Qamariah, menulis huruf-huruf tanpa titik.
+
+        Namun tidak lama berselang huruf-huruf Arabia memasuki babak baru. Yaitu tatkala huruf-hurufnya memiliki titik dan baris yang diberi tanda baca indah.
+
+        Pada paruh kedua abad pertama, orang-orang mengenal huruf-huruf yang memiliki titik melalui Yahya bin Ya'mar dan Nashr bin Ashim, dua murid Abu al-Aswad Duali. Sebab dilakukan peletakan titik ini karena negeri Islam semakin luas dan banyak orang-orang non-Arab (Ajam) yang memeluk Islam yang membuat mereka perlu dan harus mengenal Al-Qur\'an.
+
+        Perbuatan ini dikerjakan dalam rangka ingin mencegah munculnya kesalahan dalam membaca Al-Qur\'an oleh orang-orang non-Arab (Ajam); lantaran orang-orang Arab mengikut tabiat mereka, membaca Al-Qur\'an dengan baik dan benar sehingga tidak memerlukan tanda baca. Akan tetapi perbedaan tersebut tidaklah merubah bunyi, arti, dan maksud kandungannya, karena yang beda hanya tanda bacanya saja"
+        </string>
+    <string name="location">Lokasi</string>
+    <string name="shubuh">Shubuh</string>
+    <string name="dzuhur">Dzuhur</string>
+    <string name="ashar">Ashar</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="isya">Isya</string>
+    <string name="your_location">Lokasimu</string>
+    <string name="search">Cari</string>
+    <string name="prayScedule">Jadwal Sholat</string>
+    <string name="Fajr">Fajar</string>
+    <string name="Sunrise">Matahari Terbit</string>
+    <string name="Dhuhr">Dzuhur</string>
+    <string name="asar">Ashar</string>
+    <string name="magrib">Maghrib</string>
+    <string name="isyaa">Isya</string>
+    <string name="descriptionImage">Description Image</string>
+    <string name="selamatpagi">Selamat Pagi</string>
+    <string name="badconnection">Tidak Ada Jaringan Internet</string>
+    <string name="selamatsiang">Selamat Siang</string>
+    <string name="selamatsore">Selamat Sore</string>
+    <string name="selamatmalam">Selamat Malam</string>
+</resources>
