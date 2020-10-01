@@ -35,7 +35,7 @@
         android:layout_marginTop="40dp"
         tools:text="Fajar"
         android:textColor="#FFF"
-        android:textSize="35sp"
+        android:textSize="34sp"
         android:textStyle="bold" />
 
     <ImageView
